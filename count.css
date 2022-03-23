@@ -1,0 +1,81 @@
+.time{
+    height: 80vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: url(./img/BACKGROUND\ .png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.inner-time{
+    height: 90%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.txt{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt p{
+    font-size: 85px;
+    font-family: Russo;
+    color: white;
+}
+.img{
+    height: 100%;
+    width: 45%;
+    /* background-color: red; */
+    background: url(./img/main-logo.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 850px) {
+    .time{
+        height: 100vh;
+        margin-top: 0px;
+    }    
+
+    .txt{
+        width: 100%;
+        height: 50%;
+        /* background-color: red; */
+    }
+
+    .img{
+        height: 50%;
+        width: 100%;
+        width: 100%;
+        background-color: red;
+        background: url(./img/main-logo.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .txt p{
+        font-size: 45px;
+        font-family: Russo;
+        color: white;
+    }
+    
+}
