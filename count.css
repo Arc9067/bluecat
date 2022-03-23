@@ -30,7 +30,7 @@ p{
 }
 
 .inner-time{
-    height: 500px;
+    height: 90%;
     width: 90%;
     /* background-color: red; */
     display: flex;
@@ -42,7 +42,7 @@ p{
 @media screen and (max-width: 850px) {
     .time{
         width: 1000px;
-        height: 500px;
+        height: 100vh;
         justify-content: space-between;
         /* background-color: green; */
         margin-top: 0px;
